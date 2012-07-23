@@ -2,7 +2,7 @@
    "http://www.w3.org/TR/html4/strict.dtd">
 <html>
    <head>
-      <title>Мій перший HTML-документ</title>
+      <title>My first HTML-page</title>
    </head>
    <body>
       Hello world!
