@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Task 33</title>
+    
+
+    <script>
+        function FillTheTable() {
+            
+            
+            var myTable = document.getElementById('TABLE');
+            var rowCount = myTable.rows.length;
+            // create 5 rows and 20 columns in a loop
+            for (var i = 1; i < 10; i++) {
+                var oTR = myTable.insertRow(rowCount);
+                rowCount++;
+                for (var j = 0; j < 4; j++) {
+                    var oTD = oTR.insertCell();
+                    oTD.innerHTML = Math.round(Math.random() * 10000 + 0.5);
+                    // attach event to cell
+                    // we do not use attachEvent, instead, we assing a new function to property
+                }
+            }      
+        }
+
+    </script>
+	
+</head>
+<body onload="FillTheTable()">
+ 
+    <table id="TABLE" style="width: 300px;" border="1">
+        <tr>
+            <td>Header1</td>
+            <td>Header2</td>
+            <td>Header3</td>
+            <td>Header4</td>
+        </tr>
+    </table> 
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 15</title>
+    <style>
+        table {
+            border: 4px double black;
+            border-style:groove;
+            width: 400px;
+            height: 200px;
+            background-color: #fff;
+            position: absolute;
+        }
+        .image {
+            position:absolute;
+            width: 300px ;
+            height: 300px;
+            border: 1px solid black;
+            background-image: url('1.jpg');
+            
+            
+        }
+    </style>
+</head>
+<body>
+   
+    <table >
+        <tr>
+            <th>Earth</th>
+            <th>Mercury</th>
+            <th>Venus</th>
+        </tr>
+        <tr>
+            <th>Neptune</th>
+            <th>Pluto</th>
+            <th><img src="1.jpg" width="150" height="100" style="position:absolute; right:0; bottom:0"></img></th>
+        </tr>
+    </table>
+     
+        
+</body>
+</html>

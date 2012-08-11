@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 36</title>
+    <style type="text/css">
+.noncolor {
+color: Black;
+font: 15px Verdana Geneva Arial Helvetica sans-serif;
+
+}
+.color SPAN {
+color: #fff;
+font: bold 18px Verdana Geneva Arial Helvetica sans-serif;
+background-color: #00ff21;
+ 
+}
+    color.oko span {
+        color: #ff6a00;
+    }
+    
+
+</style>
+    <script>
+
+        function ColorText() {
+            document.getElementById('out').className = 'color';
+
+        }
+        function showHidden(objName) {
+            var obj = document.all[objName];
+            //obj.style.-webkit-transition-delay= "2s";
+            obj.style.visibility = "visible";
+
+        }
+        function callShow(objName) {
+            showHidden(objName);
+            ColorText();
+        }
+
+        function NonColorEdit() {
+            document.getElementById('out').className = 'noncolor';
+        }
+       
+        function hideElement(objName) {
+            var obj = document.all[objName];
+            obj.style.visibility = "hidden";
+       
+        }
+        function callHide(objName) {
+            hideElement(objName);
+            NonColorEdit();
+        }
+       
+       
+        
+    </script>
+</head>
+<body>
+    
+    <div id="jumpingObject" 
+        style="visibility:hidden;position:absolute;top:81%; left:3%; width:102px; height:100px; background-color:yellow; 
+        -moz-transition-delay: 2s; /* Firefox 4 */
+        -webkit-transition-delay: 2s; /* Safari and Chrome */
+        -o-transition-delay: 2s; /* Opera */ " >
+		Catch me!       
+	</div>
+    Show Hidden Element
+    If i set left:100% the popup element goes out of page.I can see him oonly if the parametr of left is 93%.
+        So that i will display it below of highlighted text
+    <div id="out" onmouseover="callShow('jumpingObject')" onmouseout="callHide('jumpingObject')"> <span> Create</span> a <span >picture</span> inside another <span >picture</span>,than <span>create</span> <span>picture</span> inside second <span>picture</span>.
+      </div>
+</body>
+</html>

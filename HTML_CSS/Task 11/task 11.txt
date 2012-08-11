@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Task11</title>
+        <style>
+			.redText
+			{
+				color: red;
+                font-style: italic
+                
+                    
+			}
+            .blueText
+			{font-family: Times, serif;
+				color: blue;
+                font-weight: bold;
+                   
+			}
+           .blackText {
+            color: #000;
+            font-size:  x-large
+            
+            }
+			span
+			{
+				
+			}
+		</style>
+    </head>
+    <body>
+        <a name="top">
+           <h1><div style="text-align: center">Example page</div></h1>
+
+        </a>
+        <h2><span class="blueText"> example</span></h2>
+
+        <P>This HTML page example demonstrated various HTML tags for formatting.</P>
+
+        <div style="text-align: right">Right-aligned  text</div>
+            <center>Centered text</center>
+
+        <div style="text-align: center"><a href="http://www.google.com">This is a link to Google home page</div></a>
+        <P><a href="#top">This is a link to top of this page</a>
+
+            <hr />
+             <h3><div style="text-align: center">Story about blonde</div></h3>
+      <div style="text-align: center">  
+            <span class="blackText">A</span>
+            <i> blonde  goes into a nearby store and asks a clerk if she can buy the TV in the corner.</i>
+        </div>
+ <div style="text-align: left";> <Span class="redText"><Q>
+    The clerk</Q> looks at her and says that he doesn't serve blondes, so she goes back home and dyes her hair black.
+</Span></div>
+
+<div style="text-align: center"> <u> 
+    The next day she returns to the  store and <span class="blueText">asks the same thing, and again, the clerk said he doesn't serve blondes.
+</span></u></div>
+
+       <hr />
+    </body>
+
+</html>

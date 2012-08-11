@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Task 20</title>
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+		  .dataDivs /* table */
+		  {
+				border:1px solid black;
+	  		    padding:1px;
+				background-color:#D0FFD0;
+				width:268px;
+		  }
+		  .dataDivs div /* table column */
+		  {
+				display:inline;
+				float:left;
+		  }
+		  .dataDivs span /* table cell */
+		  {
+				margin:1px;
+		     	border:1px solid black;
+				padding:2px;
+				background-color:#C0C0C0;
+				width:100%;
+		  }
+		  .dataDivs .firstLine
+		  {
+				background-color:#888;
+		  }
+		
+		
+			.dataTable
+			{
+				border:1px solid black;
+				background-color:#D0FFD0;
+				padding:2px;
+                border-spacing: 1px;
+			}
+			.dataTable tr.firstLine td
+			{
+				border:1px solid black;
+				padding:2px;
+				background-color:#888;
+			}
+			.dataTable td
+			{
+				border:1px solid black;
+				background-color:#C0C0C0;
+				padding:2px;
+			}
+		    .CssTable {
+                border-color: black;
+                background-color:#D0FFD0;
+                border: 1px solid black;
+                border-spacing: 1px;
+                padding: 1px;
+		    }
+		    .CssTable tr.firstLine td {
+                border-color: black;
+                background-color:#D0FFD0;
+                border: 1px solid black;                              
+		    }
+		    .one {
+                background-color: #808080;
+		    }
+		    .two {
+                background-color: #C0C0C0;
+		    }
+		</style>
+	</head>
+<body>
+	<table class="dataTable" >
+		<tr class="firstLine">
+			<td>First header</td>
+			<td>Second header</td>
+			<td>Third header</td>
+		</tr>
+		<tr>
+			<td>data 1</td>
+			<td>data 2</td>
+			<td>data 3</td>
+		</tr>
+		<tr>
+			<td>data 1</td>
+			<td>data 2</td>
+			<td>data 3</td>
+		</tr>
+	</table>
+	
+	<table class="CssTable" >
+		<tr class="one">
+			<td >First header</td>
+			<td >Second header</td>
+			<td >Third header</td>
+		</tr>
+		<tr class="two">
+			<td >data 1</td>
+			<td >data 2</td>
+			<td >data 3</td>
+		</tr>
+		<tr class="two">
+			<td >data 1</td>
+			<td >data 2</td>
+			<td >data 3</td>
+		</tr>
+	</table>
+
+	<div class="dataDivs">
+		<div style="width:80px;">
+			<span class="firstLine">First header</span>
+			<span>data 1</span>
+			<span>data 1</span>
+		</div>
+		<div style="width:99px;">
+			<span class="firstLine">Second header</span>
+			<span>data 2</span>
+			<span>data 2</span>
+		</div>
+		<div style="width:85px;">
+			<span class="firstLine">Third header</span>
+			<span>data 3</span>
+			<span>data 3</span>
+		</div>
+	</div>
+	
+	
+</body>
+</html>

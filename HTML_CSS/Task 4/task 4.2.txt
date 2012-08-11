@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Sample web page</title>
+	</head>
+<body>
+<a name="top">
+	<h1><p align=center>Task 4</h1>
+</a>
+   <br >
+       1.Create 3 html pages. </br>
+    2.One page is main page with links to 2 other.<br />
+    3.Second page should reference third page.<br />
+    4.Second and third pages should contain links to return back to main page.<br />
+    5.Add a lot of text to the page divided by chapter.
+     Each chapter should be with headers. 
+    Create table of content using anchors to navigate to start of each chapter.<br />
+
+    <hr >
+
+    <p><a href="2Page.html">2 Page</a></p>
+    <p><a href="3Page.html">3 Page</a></p>
+
+    <a name="This is a big Text">
+    <h2><big><center>This is a big Text</center></big></h2>
+        </a>
+    <p><big>This is a big Text.This is a big Text.This is a big Text.This is a big Text.
+        This is a big Text.This is a big Text.This is a big Text.This is a big Text.This is a big Text.
+        This is a big Text.This is a big Text.This is a big Text.This is a big Text.This is a big Text.
+        This is a big Text.This is a big Text.This is a big Text.This is a big Text.This is a big Text.
+
+       </big></p>
+    <a name="This is a small Text">
+    <h3><small><center>This is a small Text</center></small></h3>
+        </a>
+    <p><small>This is a small Text.This is a small Text.This is a small Text.This is a small Text.
+        This is a small Text.This is a small Text.This is a small Text.This is a small Text.This is a small Text.
+        This is a small Text.This is a small Text.This is a small Text.This is a small Text.This is a small Text.
+        This is a small Text.This is a small Text.This is a small Text.This is a small Text.This is a small Text.
+        This is a small Text.This is a small Text.This is a small Text.This is a small Text.This is a small Text.
+
+       </small></p>
+
+        <a name="This is a italic Text">
+    <h4><i><center>This is a italic Text</center></i></h4>
+            </a>
+    <p><i>This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.
+        This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.
+        This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.
+        This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.This is a italic Text.
+       </i></p>
+        <hr />
+
+    <a name="This is a bold Text">
+    <h5><b><center>This is a bold Text</center></b></h5>
+        </a>
+    <p><b>This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.
+        This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.
+        This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.
+        This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.
+        This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.This is a bold Text.
+       </b></p>
+    <hr />
+
+    <TABLE border=1>
+<TR>
+<TH width=150 nowrap>Header 1</TH>
+<TH width=150>Header 2</TH>
+<TH width=150>Header 3</TH>
+<TH width=150>Header 4</TH>
+</TR>
+<TR>
+    <TD><center><a href="#This is a big Text">This is a big Text</a></center></TD>
+    <TD><center><a href="#This is a small Text">This is a small Text</a></center></TD>
+    <TD><center><a href="#This is a italic Text">This is a italic Text</a></center></TD>
+    <TD><center><a href="#This is a bold Text">This is a bold Text</a></center></TD>
+</TR>
+</TABLE>
+
+    </body>
+    </html>

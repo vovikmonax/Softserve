@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 30</title>
+    <script>
+        var str = "<div class='tab0'>CSS code formatter</div><div class='tab2'>CSS code compressor</div>";
+        var re = new RegExp("<(.|\n)*?>", "g");
+        var my = str.match(re);
+
+        var my = str.match(/<(.|\n)*?>/g)
+
+        if ( my != null) {
+            for ( i = 0; i < my.length; i++ ) { 
+                var result = "my[" + i + "] = " + my[i];
+            }
+        }
+        alert(result);
+    </script>
+</head>
+<body>
+    Hello!
+</body>
+</html>

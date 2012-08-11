@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        #TextArea1 {
+            height: 53px;
+        }
+        #Button1 {
+            width: 87px;
+        }
+        #Submit1 {
+            width: 89px;
+        }
+    </style>
+</head>
+<form>
+   List Box:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <SELECT size="4">
+        <option>Css</option>
+        <option>Html</option>
+        <option>JavaScript</option>
+        <option>Jquery</option>
+        <option>Xhtml</option>
+    </SELECT>
+    <br />
+ Selected Box:<select id="Select1">
+    <option>Student</option>
+    <option>Company</option>
+</select>
+    <br />
+    Edit Box:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <textarea maxlength="100" accesskey="s"  tabindex="1"
+ id="TextArea1" cols="20" ></textarea>
+    <br />
+<input id="Button1" type="button" value="OK" /></form>
+    <br />
+&nbsp;<img alt="" src="142.jpg" />
+</html>

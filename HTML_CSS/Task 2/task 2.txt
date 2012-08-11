@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Sample web page</title>
+	</head>
+<body>
+<a name="top">
+	<h1><p align=center>Task 2</h1>
+</a>
+   <br >
+       1.Try PRE tag and non-breaking space inside of previous formatting example. </br>
+    2.Try any other entities.<br />
+    3.Try entities with a character code.<br />
+    4.Try advanced formatting tags.<br />
+	 
+<P align="center"><a href="http://www.google.com">This is a link to Google home page</a>
+    <hr>
+    <h3><p align=center><nobr>Numbers</nobr></h3>
+    <p align="center"><font size=5 color="green">1 &nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp;&nbsp; 3 &nbsp;&nbsp;&nbsp;
+         4 &nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp; 
+        7&nbsp;&nbsp;&nbsp; 8 &nbsp;&nbsp;&nbsp; 9 &nbsp;&nbsp;&nbsp; 0 </font>
+        <font color="red"><pre> 7 &gt 5</pre>
+        <pre> 4 &lt 8</pre>
+        <pre> 5 &gt 9 </pre>
+        <pre> 5 &amp 9 = 5 i 9</pre></font>
+        <pre> &quot; 5 &quot= &quot пять &quot</pre>
+        <pre> 400 &euro; &gt 200 &euro;</pre>
+        <pre>My password is &amp;#39-%34903&</pre>
+        <pre><q><big>London is the</big> <small>capital of Great Britian</q></small></pre>
+        <MARQUEE><font color=blue size=6>Kyiv is the capital of Ukraine</font></MARQUEE>
+                      </p>
+    
+    
+
+<P><a href="#top">This is a link to top of this page</a>
+    <hr />
+</body>
+</html>

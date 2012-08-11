@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div >
+<table>
+<tr>
+<td >This is some text inside of cell that should be on blue gradient background.</td>
+</tr>
+</table>
+</div>
+    <table width="500 px" height="200 px" style="border: 10px solid black;">
+    
+<tr >
+<td> Andron</td>
+<td>TLAuaa</td>
+</tr>
+<tr>
+<td> <div style="width:200px; height:100px;">Omsssss</div></td>
+
+<td > <div style="width:300px;float:right;height:200px;overflow:auto;margin: 20px;background-image:url('triangle.gif');background-attachment:fixed;"></div></td>
+</tr>
+
+</table>
+</body>
+</html>

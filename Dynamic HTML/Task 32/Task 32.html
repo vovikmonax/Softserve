@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 32</title>
+    <script>
+        
+        function revChanges() {
+            
+            window.event.srcElement.style.color = "";
+        }
+        function hideElement(objName) {
+            var obj = document.all[objName];
+            obj.style.visibility = "hidden";
+        }
+        function callHide(objName) {
+            revChanges();
+            hideElement(objName);
+        }
+        function doChanges() {
+            //debugger;
+            window.event.srcElement.style.color = "green";
+        }
+        function showHidden(objName) {
+            var obj = document.all[objName];
+            obj.style.visibility = "visible";
+        }
+        function callShow(objName) {
+            doChanges();
+            showHidden(objName);
+            
+        }
+    </script>
+</head>
+<body>
+    <div id="jumpingObject" 
+			
+        style="visibility:hidden;position:absolute;top:50px; left:200px;width:92px; height:90px; background-color:yellow;" >
+		Catch me!
+	</div>
+    Show Hidden Element
+    <h4 onmouseover="callShow('jumpingObject')" onmouseout="callHide('jumpingObject')" style="color:blue;">(highlight example)</h4>
+</body>
+</html>

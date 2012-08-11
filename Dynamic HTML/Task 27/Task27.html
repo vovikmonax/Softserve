@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+    <title>Task 27
+    </title>
+<script type="text/javascript">
+    var ExcelApp = new ActiveXObject("Excel.Application");
+    var ExcelSheet = new ActiveXObject("Excel.Sheet");
+    // Make Excel visible through the Application object.
+    ExcelSheet.Application.Visible = true;
+    // Place some text in the first cell of the sheet.
+    ExcelSheet.ActiveSheet.Cells(1, 1).Value = "This is column A, row 1";
+    ExcelApp.GetSaveAsFilename("Testing Excel Extraction.ls");
+    ExcelApp.Quit();
+
+</script>
+</head>
+<body>
+<h1>Correct!</h1>
+</body>
+</html>

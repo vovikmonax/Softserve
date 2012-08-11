@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Task 28</title>
+    <script type="text/javascript">
+        try {
+        var ExcelApp = new ActiveXObject("Excel.Application");
+        var ExcelSheet = new ActiveXObject("Excel.Sheet");
+        // Make Excel visible through the Application object.
+        ExcelSheet.Application.Visible = true;
+        // Place some text in the first cell of the sheet.
+        ExcelSheet.ActiveSheet.Cells(1, 1).Value = "This is column A, row 1";
+        
+            ExcelApp.GetSaveAsFilename ("Testing Excel Extraction.xls");
+        }
+        catch(e)
+        {
+            alert('Sorry,but you blocked ActiveX element.To see it try to reload the page');
+    }
+        finally {
+
+            ExcelApp.Quit();
+        }
+        </script>
+</head>
+<body>
+
+</body>
+</html>

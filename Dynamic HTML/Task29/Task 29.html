@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+<title>Task 29</title>
+<script>
+    var input = document.getElementById('idName');
+    var str = "<h4 class='sds'>Hello World!</h4>";
+    var re = new RegExp("<\s*h4[^>]*>(.*?)<\s*/\s*h4>", "g");
+    var my = re.exec(str);
+
+    if (my != null) {
+        for (i = 0; i < my.length; i++) {
+            var result = "my[" + i + "] = " + my[i];
+        }
+    }
+    alert(result);
+</script>
+</head>
+<body>
+<h1 id="idName">Hello World!</h1>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Task 12</title>
+<style type="text/css">
+body
+{overflow:scroll;
+	background:url(291.jpg);
+}
+</style>
+</head>
+<body>
+    
+<table width="500 px" height="200 px" style="border: 10px solid black;background-color:#FFF;">
+    
+<tr >
+<td> Andron</td>
+<td>TLAuaa</td>
+</tr>
+<tr>
+<td> <div style="width:200px; height:100px;">Omsssss</div></td>
+
+<td style background="291.jpg"><div style="width:400px; height:200px; overflow:auto;">This is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is This is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is textThis is text</div></td>
+</tr>
+
+</table>
+
+    
+</body>
+</html>

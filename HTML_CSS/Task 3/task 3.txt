@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Sample web page</title>
+	</head>
+<body>
+<a name="top">
+	<h1><p align=center>Task 3</h1>
+</a>
+   <br >
+       1.Try PRE tag and non-breaking space inside of previous formatting example. </br>
+    2.Try any other entities.<br />
+    3.Try entities with a character code.<br />
+    4.Try advanced formatting tags.<br />
+    <hr >
+<TABLE border=1>
+<TR>
+<TH width=100 nowrap></TH>
+<TH width=150>־כ³גוצü Kelar</TH>
+<TH width=150>־כ³גוצü Cherry</TH>
+</TR>
+<TR>
+    <TD>Little</TD>
+    <TD><center>10 דנם</center></TD>
+    <TD><center>12 דנם</center></TD>
+</TR>
+<TR>
+    <TD>Medium</TD>
+    <TD><center>14 דנם</center></TD>
+    <TD><center>16 דנם</center></TD>
+</TR>
+  <TR>
+      <TD>Large</TD>
+      <TD><center>17 דנם</center></TD>
+      <TD><center>20 דנם</center></TD>
+  </TR>
+</TABLE>
+
+
+<hr>
+
+
+<TABLE BORDER=1 width=100% cellspacing=4>
+<COL SPAN="2" STYLE="color:red">
+<COL STYLE="color:blue">
+<THEAD align=center>
+<TR>
+<TH width="150" nowrap></TH>
+<TH width="150">Madison</TH>
+<TH width="150">Kolos</TH>
+<TH width="150">Tacker</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD rowspan=1 width=100 valign=center>Empty</TD>
+<TD>3 רע</TD>
+<TD rowspan=1 width=100 valign=center>5 רע</TD>
+<TD colspan=2>7 רע</TD>
+</TR>
+<TR>
+    <TD>Half</TD>
+    <TD >2 רע</TD>
+    <TD >2 רע</TD>
+    <TD> 3 רע</TD>
+</TR>
+<TR>
+    <TD>Full</TD>
+    <TD >9 רע</TD>
+    <TD >7 רע</TD>
+    <TD> 4 רע</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<hr />
+<TABLE>
+<CAPTION VALIGN=BOTTOM><b>
+This table demonstrated differences of degrees measures.
+</b></CAPTION>
+<THEAD>
+<TR>
+<TD>
+
+</TD>
+    <TD>
+ײוכüס³י(C) 
+</TD>
+    <TD>
+װאנוםדויע(F)
+</TD>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+    <TD>1</TD>
+    <TD>60</TD>
+    <TD>115</TD>
+</TR>
+<TR>
+    <TD>2</TD>
+    <TD>0</TD>
+    <TD>-10</TD>
+</TR>
+<TR>
+    <TD>3</TD>
+    <TD>35</TD>
+    <TD>98</TD>
+</TR>
+    <TR>
+    <TD>4</TD>
+    <TD>22</TD>
+    <TD>56</TD>
+</TR>
+
+</TBODY>
+</TABLE>
+
+
+<hr>
+    </body>
+    </html>

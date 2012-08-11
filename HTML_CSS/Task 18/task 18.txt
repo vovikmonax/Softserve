@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 18</title>
+    <bgsound src="1.mid" loop="-1" volume="0"> 
+</head>
+<body>
+    <h1><center>Exaple Page</center></h1>
+    
+    <embed src="mammyblue2.swf" autostart="true" width="400" height="300" type="application/x-shockwave-flash"
+	    pluginspage="http://www.macromedia.com/go/getflashplayer">  
+ 
+</body>
+</html>

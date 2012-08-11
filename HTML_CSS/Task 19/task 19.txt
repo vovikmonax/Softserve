@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 19</title>
+    <style>
+   ul {
+    list-style: square outside; /* Квадратные маркеры */
+                               /* Маркеры размещаются за 
+                                  пределами текстового блока */
+   }
+  </style>
+</head>
+<body>
+    <ul>
+        <li><a href="SampleMs Word.docx" >Download Sample MS Word File</a></li>
+        <li><a href="Sample Microsoft Excel.xlsx">Download Sample Microsoft Excel File</a></li>
+        <li><a href="1.jpg" >Download Sample Picture File</a></li>
+        <li><a href="Sample Zip File.zip">Download Sample Archive File</a></li>
+        </ul>
+</body>
+</html>

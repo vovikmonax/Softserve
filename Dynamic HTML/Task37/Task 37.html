@@ -1,0 +1,110 @@
+﻿<html>
+<head>
+<style>
+td {
+font-family: Arial;
+font-weight: bold;
+height: 2em;
+margin: 0;
+text-align: center;
+width: 2em;
+vertical-align: middle;
+}
+
+#leftTop {
+border-bottom: 1px black solid;
+border-left: 0;
+border-right: 1px black solid;
+border-top: 0;
+}
+#midTop {
+border-bottom: 1px black solid;
+border-left: 1px black solid;
+border-right: 1px black solid;
+border-top: 0;
+}
+#rightTop {
+border-bottom: 1px black solid;
+border-left: 1px black solid;
+border-right: 0;
+border-top: 0;
+}
+#leftMid {
+border-bottom: 1px black solid;
+border-left: 0;
+border-right: 1px black solid;
+border-top: 1px black solid;
+}
+#midMid {
+border-bottom: 1px black solid;
+border-left: 1px black solid;
+border-right: 1px black solid;
+border-top: 1px black solid;
+}
+#rightMid {
+border-bottom: 1px black solid;
+border-left: 1px black solid;
+border-right: 0;
+border-top: 1px black solid;
+}
+#leftBot {
+border-bottom: 0;
+border-left: 0;
+border-right: 1px black solid;
+border-top: 1px black solid;
+}
+#midBot {
+border-bottom: 0;
+border-left: 1px black solid;
+border-right: 1px black solid;
+border-top: 1px black solid;
+}
+#rightBot {
+border-bottom: 0;
+border-left: 1px black solid;
+border-right: 0;
+border-top: 1px black solid;
+}
+</style>
+<script language=javascript>
+    var XO = 'z';
+
+    function placeXO(cellRef) {
+        if ('X' == XO) XO = 'O';
+        else XO = 'X';
+        cellRef.innerHTML = XO;
+    }
+
+    function resetGame() {
+        location.reload();
+    }
+</script>
+</head>
+<body>
+Click in a square to play tic-tac-toe...
+
+
+<table>
+<tr>
+<td id="leftTop" onclick="placeXO(this);"> </td>
+<td id="midTop" onclick="placeXO(this);"> </td>
+<td id="rightTop" onclick="placeXO(this);"> </td>
+</tr>
+<tr>
+<td id="leftMid" onclick="placeXO(this);"> </td>
+<td id="midMid" onclick="placeXO(this);"> </td>
+<td id="rightMid" onclick="placeXO(this);"> </td>
+</tr>
+<tr>
+<td id="leftBot" onclick="placeXO(this);"> </td>
+<td id="midBot" onclick="placeXO(this);"> </td>
+<td id="rightBot" onclick="placeXO(this);"> </td>
+</tr>
+</table>
+
+
+<form>
+<input type="button" value="reset game" onclick="resetGame();" />
+</form>
+</body>
+</html>

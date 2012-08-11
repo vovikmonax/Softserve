@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 22</title>
+    <script type="text/javascript">
+        var reInteger = /^\d+$/;
+
+        function isString(var1,var2) {
+            if (var1.substring && var2.substring) {
+                
+                if (Boolean(var1)&&Boolean(var2)) {
+                    return alert((var1.concat(";")).concat(var2));
+                }
+                // do string thing
+            } else {
+                return alert("\"Invalid parameters\" string");
+                // do other thing
+            }
+        }
+
+</script>
+    
+</head>
+<body>
+  
+    <button onclick="isString('Harry Potter','Wizard')">Try it</button>
+    <br />
+    <button onclick="isString('Harry Potter',123)">Try it too</button>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 32</title>
+    <script>
+
+        function revChanges() {
+
+            window.event.srcElement.style.color = "";
+        }
+        function hideElement(objName) {
+            var obj = document.all[objName];
+            obj.style.visibility = "hidden";
+        }
+        function callHide(objName) {
+            revChanges();
+            hideElement(objName);
+        }
+        function doChanges() {
+            //debugger;
+            window.event.srcElement.style.color = "green";
+        }
+        function showHidden(objName) {
+            var obj = document.all[objName];
+            //obj.style.-webkit-transition-delay= "2s";
+            obj.style.visibility = "visible";
+        
+            
+        }
+        function callShow(objName) {
+            doChanges();
+            showHidden(objName);
+
+        }
+    </script>
+</head>
+<body>
+    <div id="jumpingObject" 
+			
+        
+        
+        
+        style="visibility:hidden;position:absolute;top:81%; left:3%; width:102px; height:100px; background-color:yellow; 
+
+		Catch me!
+        
+	</div>
+    Show Hidden Element
+    <h4 onmouseover="callShow('jumpingObject')" onmouseout="callHide('jumpingObject')" style="color:blue;">(highlight example)</h4>
+    If i set left:100% the popup element goes out of page.I can see him oonly if the parametr of left is 93%.
+        So that i will display it below of highlighted text
+</body>
+</html>

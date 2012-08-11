@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Task 16</title>
+    <style>
+			.dataTable
+			{
+				border:1px solid black;
+				background-color:#D0FFD0;
+				padding:2px;
+				table-layout:fixed;
+				width:100px;
+			}
+			.dataTable tr td
+			{
+				border:1px solid black;
+				background-color:#C0C0C0;
+				padding:2px;
+				white-space:nowrap;
+				width:100%;
+				overflow:hidden;
+				text-overflow : ellipsis;
+			}
+			
+			
+			
+		</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table class="dataTable" >
+<tr class=="firstLine"><td style="width:150px;"></td><td style="width:150px;"></td><td style="width:150px;"></td>></tr>
+<%
+    for (int ix = 0; ix < 30000; ix++)
+    {
+        Response.Write("<tr>");
+        Response.Write("<td><img src='1.jpg'></td>");
+        Response.Write("<td>"  + "New row row row row row row"+ "</td>");
+        Response.Write("<td><img src='3.jpg'></td>");
+        Response.Write("</tr>");
+    }
+
+ %>
+ </table>
+    </div>
+    </form>
+</body>
+</html>

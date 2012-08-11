@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 34</title>
+    <style>
+
+        span {
+			color: red;
+			font-weight: bold;
+		}
+      
+    </style>
+    <script>
+     
+        function doChanges() {
+          var buttton= "<button onclick='HighlightRelativeElement(text);'>Highlight keywords</button>";
+          var text= "This is some text with <span>keywords</span> which are in <span>tags</span> for highlighting.";
+
+          document.write(text);
+          document.write(buttton);
+        
+            
+        }
+        function HighlightRelativeElement(button) {
+            button.nextclassName = 'span'
+
+        }
+           
+       
+    </script>
+</head>
+
+<body onload="doChanges()">
+    
+    <div>
+        Use a tag to create specific tag
+    </div>
+</body>
+</html>
